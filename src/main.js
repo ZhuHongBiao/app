@@ -16,9 +16,3 @@ new Vue({
   template: '<App/>'
   // render: h => h(App)
 })
-let obj = {
-  fn: function () {
-    console.log(this)
-  }
-}
-obj.fn()
